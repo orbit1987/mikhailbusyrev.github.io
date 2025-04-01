@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    opacity: 1;
+    transform: none;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+h1, h2 {
+    color: #f39c12;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.contact a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+}
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.contact-button:hover {
+    background-color: #e67e22;
+}
+.icons {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.skills, .experience, .education, .languages {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f39c12;
+    color: #1e1e1e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

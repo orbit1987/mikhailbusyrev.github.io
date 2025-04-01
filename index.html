@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhail Busyrev - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="language-switch" onclick="toggleLanguage()">ES</div>
+    <div class="container">
+        <img src="images/profile.jpg" alt="Mikhail Busyrev" class="profile-img" onerror="this.src='images/default-profile.jpg'">
+        <h1 id="name">Mikhail Busyrev</h1>
+        <h2 id="title">Software Engineer</h2>
+        <p id="intro">I am a communicative, balanced, and results-driven developer with experience in SDKs, mobile applications, and web solutions.</p>
+        
+        <div class="contact">
+            <p><i class="fas fa-envelope icons"></i> <span id="email-label">Email:</span> <a href="mailto:mikhail.busyrev@gmail.com">mikhail.busyrev@gmail.com</a></p>
+            <p><i class="fas fa-phone icons"></i> <span id="phone-label">Phone:</span> +34 623 515 944</p>
+            <p><i class="fas fa-map-marker-alt icons"></i> <span id="location-label">Location:</span> Don Benito, Badajoz</p>
+        </div>
+        
+        <a href="mailto:mikhail.busyrev@gmail.com" class="contact-button" id="contact-btn">Contact Me</a>
+        
+        <div class="skills">
+            <h2><i class="fas fa-code icons"></i> <span id="skills-label">Technology Stack</span></h2>
+            <ul>
+                <li>Java, Kotlin, Golang, Angular</li>
+                <li>Continuous Integration, Jenkins</li>
+                <li>Jira, Git, GitHub, GitLab</li>
+            </ul>
+        </div>
+        
+        <div class="experience">
+            <h2><i class="fas fa-briefcase icons"></i> <span id="experience-label">Work Experience</span></h2>
+            <h3>Software Engineer - DevToDev (Israel)</h3>
+            <p id="job1">Developed SDKs for event tracking and push notifications, created mobile applications for testing SDKs, and implemented A/B testing.</p>
+            
+            <h3>Software Engineer - OOO "Dis-Com" (Russia)</h3>
+            <p id="job2">Worked on logistics systems, smart lockers, visitor management software, and other enterprise solutions.</p>
+        </div>
+        
+        <div class="education">
+            <h2><i class="fas fa-graduation-cap icons"></i> <span id="education-label">Education</span></h2>
+            <p>Bachelor's Degree, Perm State University (2009)</p>
+        </div>
+        
+        <div class="languages">
+            <h2><i class="fas fa-language icons"></i> <span id="languages-label">Languages</span></h2>
+            <p>English (B1), Spanish (A2), Russian (Native)</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
